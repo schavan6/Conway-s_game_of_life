@@ -1,0 +1,15 @@
+td {
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+}
+
+.dead {
+    background-color: transparent;
+}
+.live {
+    background-color: yellow;
+}
+table{
+	background-color: gray;
+}

@@ -1,0 +1,30 @@
+
+
+.title{
+
+	text-align: center;
+    font-style: italic;
+    color: blue;
+}
+ .sum{
+	border-style: double;
+	border-color: blue;
+    color:#734f96;
+     font-size: 20px;
+	
+}
+body,html
+{
+    margin:0;
+    padding:0;
+    height: 100%; 
+    background-image: url(dgb2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* font: 400 15px/1.8 "Lato", sans-serif; */
+}
+h4{
+    font-weight: bold;
+    text-align: left;
+
+}

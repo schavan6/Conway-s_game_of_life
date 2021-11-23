@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <title>Conway's Game of Life</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div id="grid" class="col-md-9"></div>
+		<div class="col-md-3">
+			
+			<button type="button" onClick="startAnimation()" class="btn btn-default">Start</button>
+			<button type="button" onClick="stopAnimation()" class="btn btn-default">Stop</button>
+			<button type="button" onClick="resetAnimation()" class="btn btn-default">Reset</button>
+			<button type="button" onClick="updateGridToNextTick()" class="btn btn-default">Increment 1 Generation</button>
+			<button type="button" onClick="increment23()" class="btn btn-default">Increment 23 Generations</button><br>
+			<span class="label label-default">Population: </span><span class="label label-info" id="population"></span> <br>
+			<span class="label label-default">Generation: </span><span class="label label-info" id="generation"></span><br>
+			<span class="label label-default">Patterns: </span>
+			<select class="form-control" id="patterns">
+				<option selected value> -- select a pattern -- </option>
+				<option>Random Population</option>
+				<option>The Block</option>
+				<option>The Blinker</option>
+				<option>The Toad</option>
+				<option>Glider</option>
+			</select>
+		</div>
+	</div>
+	
+
+	
+</div>
+
+
+
+</body>
+</html>
